@@ -1,7 +1,7 @@
 # Code your solution here!
 require 'pry'
 def run_guessing_game
-number = 1
+#number = 1
 guess = ""
   while guess != 'exit'
     number = rand(1..6).to_s
