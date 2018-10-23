@@ -2,7 +2,7 @@
 require 'pry'
 def run_guessing_game
 number = 1
-guess = 0
+guess = ""
   #while guess != number #|| guess != 'exit'
   loop do
   number = rand(1..6)
