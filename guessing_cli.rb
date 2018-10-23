@@ -9,7 +9,6 @@ guess = ""
     guess = gets.chomp
       if guess == number
        puts "You guessed the correct number!"
-       break
       else
         puts "The computer guessed #{number}"
       end
