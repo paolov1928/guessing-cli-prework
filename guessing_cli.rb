@@ -10,8 +10,8 @@ guess = ""
       if guess == 'exit'
        puts "Goodbye!" 
        break
-      elsif
-      if guess == number
+      elsif guess == number
+      if 
     puts "The computer guessed #{number}"
     end
   
