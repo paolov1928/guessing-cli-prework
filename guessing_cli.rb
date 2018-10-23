@@ -11,9 +11,8 @@ guess = ""
        puts "You guessed the correct number!"
        break
       else
-        
+        puts "The computer guessed #{number}"
       end
-    puts "The computer guessed #{number}"
-    end
+  end
 puts "Goodbye!"
 end
